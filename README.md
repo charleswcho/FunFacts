@@ -1,0 +1,2 @@
+# FunFacts
+Random fact generator
