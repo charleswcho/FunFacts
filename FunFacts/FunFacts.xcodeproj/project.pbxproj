@@ -14,6 +14,8 @@
 		BAD52DB11B4F70E000AF7076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD52DB01B4F70E000AF7076 /* Images.xcassets */; };
 		BAD52DB41B4F70E000AF7076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD52DB21B4F70E000AF7076 /* LaunchScreen.xib */; };
 		BAD52DC01B4F70E000AF7076 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD52DBF1B4F70E000AF7076 /* FunFactsTests.m */; };
+		BAD52DCB1B52E46C00AF7076 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD52DCA1B52E46C00AF7076 /* FactBook.m */; };
+		BAD52DCE1B52F24200AF7076 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD52DCD1B52F24200AF7076 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		BAD52DB91B4F70E000AF7076 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD52DBE1B4F70E000AF7076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAD52DBF1B4F70E000AF7076 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		BAD52DC91B52E46C00AF7076 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		BAD52DCA1B52E46C00AF7076 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		BAD52DCC1B52F24200AF7076 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		BAD52DCD1B52F24200AF7076 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				BAD52DA81B4F70E000AF7076 /* AppDelegate.m */,
 				BAD52DAA1B4F70E000AF7076 /* ViewController.h */,
 				BAD52DAB1B4F70E000AF7076 /* ViewController.m */,
+				BAD52DC91B52E46C00AF7076 /* FactBook.h */,
+				BAD52DCA1B52E46C00AF7076 /* FactBook.m */,
+				BAD52DCC1B52F24200AF7076 /* ColorWheel.h */,
+				BAD52DCD1B52F24200AF7076 /* ColorWheel.m */,
 				BAD52DAD1B4F70E000AF7076 /* Main.storyboard */,
 				BAD52DB01B4F70E000AF7076 /* Images.xcassets */,
 				BAD52DB21B4F70E000AF7076 /* LaunchScreen.xib */,
@@ -221,7 +231,9 @@
 			files = (
 				BAD52DAC1B4F70E000AF7076 /* ViewController.m in Sources */,
 				BAD52DA91B4F70E000AF7076 /* AppDelegate.m in Sources */,
+				BAD52DCB1B52E46C00AF7076 /* FactBook.m in Sources */,
 				BAD52DA61B4F70E000AF7076 /* main.m in Sources */,
+				BAD52DCE1B52F24200AF7076 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				BAD52DC51B4F70E000AF7076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAD52DC61B4F70E000AF7076 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				BAD52DC81B4F70E000AF7076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
